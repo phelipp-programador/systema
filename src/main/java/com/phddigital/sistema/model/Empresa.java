@@ -1,6 +1,6 @@
 package com.phddigital.sistema.model;
 
-import com.phddigital.sistema.model.datas.Endereco;
+import com.phddigital.sistema.model.datas.endereco.Endereco;
 import com.phddigital.sistema.model.datas.Telefone;
 import lombok.Data;
 

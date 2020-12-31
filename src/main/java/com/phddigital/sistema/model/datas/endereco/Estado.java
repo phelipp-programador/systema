@@ -1,4 +1,4 @@
-package com.phddigital.sistema.model.datas;
+package com.phddigital.sistema.model.datas.endereco;
 
 import lombok.Data;
 

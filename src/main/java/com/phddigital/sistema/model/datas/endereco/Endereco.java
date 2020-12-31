@@ -1,11 +1,8 @@
-package com.phddigital.sistema.model.datas;
+package com.phddigital.sistema.model.datas.endereco;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Data
 @Entity
@@ -17,7 +14,8 @@ public class Endereco {
     private String numero;
     private String bairro;
     private String cidade;
-    private String estado;
+    @ManyToOne
+    private Estado estado;
     private String cep;
 
 }

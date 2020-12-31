@@ -7,12 +7,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/empresa")
-public class EmpresaController {
-    @Autowired
-    private final EmpresaService service;
+@RequestMapping("/api/cliente")
+public class ClienteController {
 
-    public EmpresaController(EmpresaService service) {
+    private final EmpresaService service;
+    @Autowired
+    public ClienteController(EmpresaService service) {
         this.service = service;
     }
 
